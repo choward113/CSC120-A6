@@ -1,7 +1,5 @@
 import java.util.ArrayList;
 
-
-/* This is a stub for the House class */
 public class House extends Building {
 
   private ArrayList<String> residents;

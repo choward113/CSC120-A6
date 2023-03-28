@@ -55,10 +55,7 @@ public class Library extends Building {
     }
     System.out.println(entireCollection);
   }
-  /*3. For good measure, we'll also write a couple of methods to support browsing the collection:
-```
-public void printCollection(); // prints out the entire collection in an easy-to-read way (including checkout status)
-```*/
+
     public static void main(String[] args) {
       Library lib = new Library("name", "address", 2);
       lib.addTitle("Fish");
